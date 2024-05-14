@@ -12,7 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "category": {
+    "descriptionCategory": {
       "type": "string"
     },
     "image": {
@@ -64,6 +64,12 @@
         "videos",
         "audios"
       ]
+    },
+    "category": {
+      "type": "string"
+    },
+    "websiteLink": {
+      "type": "string"
     }
   }
 }
