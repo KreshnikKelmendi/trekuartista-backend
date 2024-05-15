@@ -727,6 +727,7 @@ export interface ApiTeamTeam extends Schema.CollectionType {
     role: Attribute.String & Attribute.Required;
     image: Attribute.Media & Attribute.Required;
     hoverImage: Attribute.Media & Attribute.Required;
+    bool: Attribute.Boolean;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
